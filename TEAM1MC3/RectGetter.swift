@@ -8,11 +8,26 @@
 import SwiftUI
 
 struct RectGetter: View {
+    @Binding var rect: CGRect
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        GeometryReader { proxy in
+            self.createView(proxy: proxy)
+        }
+    }
+
+    func createView(proxy: GeometryProxy) -> some View {
+        DispatchQueue.main.async {
+            self.rect = proxy.frame(in: .global)
+        }
+
+        return Rectangle().fill(Color.clear)
     }
 }
 
-#Preview {
-    RectGetter()
+extension View {
+    func getRect(binding: Binding<CGRect>) -> some View {
+        self.background(RectGetter(rect: binding))
+    }
 }
+

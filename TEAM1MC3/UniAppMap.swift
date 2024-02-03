@@ -6,13 +6,12 @@
 //
 import SwiftUI
 
-struct SwiftUIView: View {
+struct UniAppMap: View {
     
     @State private var flash = false
     @State private var isSaudiArabiaPopupVisible = false
     @State private var isKoreaPopupVisible = false
     @State private var isRussiaPopupVisible = false
-    
     @State private var isIndiaPopupVisible = false
     @State private var isChinaPopupVisible = false
     @State private var isJapanPopupVisible = false
@@ -330,9 +329,9 @@ struct SwiftUIView: View {
 }
 
 #if DEBUG
-struct SwiftUIView_Previews: PreviewProvider {
+struct UniAppMap_Previews: PreviewProvider {
     static var previews: some View {
-        SwiftUIView()
+        UniAppMap()
     }
 }
 #endif

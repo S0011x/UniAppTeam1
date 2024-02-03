@@ -1,0 +1,68 @@
+{
+  "pins" : [
+    {
+      "identity" : "cocoalumberjack",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/CocoaLumberjack/CocoaLumberjack.git",
+      "state" : {
+        "revision" : "363ed23d19a931809ea834a7d722da830353806a",
+        "version" : "3.8.2"
+      }
+    },
+    {
+      "identity" : "interactivemap",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/GrandSir/InteractiveMap",
+      "state" : {
+        "branch" : "main",
+        "revision" : "4fc6f5f736c9cbf2352938a6b27712937a5d6465"
+      }
+    },
+    {
+      "identity" : "scrollableimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/gtokman/ScrollableImage.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "3097bdaa48d1cc50f9e3d91e4a412d356085941c"
+      }
+    },
+    {
+      "identity" : "svgkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SVGKit/SVGKit",
+      "state" : {
+        "revision" : "58152b9f7c85eab239160b36ffdfd364aa43d666",
+        "version" : "3.0.0"
+      }
+    },
+    {
+      "identity" : "swift-log",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-log.git",
+      "state" : {
+        "revision" : "e97a6fcb1ab07462881ac165fdbb37f067e205d5",
+        "version" : "1.5.4"
+      }
+    },
+    {
+      "identity" : "swiftsvg",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mchoe/SwiftSVG.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "88b9ee086b29019e35f6f49c8e30e5552eb8fa9d"
+      }
+    },
+    {
+      "identity" : "swiftui-image-viewer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/fuzzzlove/swiftui-image-viewer.git",
+      "state" : {
+        "revision" : "ca77123064ae046eac2be01654ee756085c2b182",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}

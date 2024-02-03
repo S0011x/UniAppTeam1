@@ -7,20 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1747CA6D2B6645870089BFE7 /* SwiftUIImageViewer in Frameworks */ = {isa = PBXBuildFile; productRef = 1747CA6C2B6645870089BFE7 /* SwiftUIImageViewer */; };
 		175FCB532B5FAE8400C33BE6 /* TEAM1MC3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175FCB522B5FAE8400C33BE6 /* TEAM1MC3App.swift */; };
-		175FCB552B5FAE8400C33BE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175FCB542B5FAE8400C33BE6 /* ContentView.swift */; };
+		175FCB552B5FAE8400C33BE6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175FCB542B5FAE8400C33BE6 /* MapView.swift */; };
 		175FCB572B5FAE8400C33BE6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175FCB562B5FAE8400C33BE6 /* Item.swift */; };
 		175FCB592B5FAE8500C33BE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 175FCB582B5FAE8500C33BE6 /* Assets.xcassets */; };
 		175FCB5C2B5FAE8500C33BE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 175FCB5B2B5FAE8500C33BE6 /* Preview Assets.xcassets */; };
+		175FCB642B5FB14700C33BE6 /* SwiftSVG in Frameworks */ = {isa = PBXBuildFile; productRef = 175FCB632B5FB14700C33BE6 /* SwiftSVG */; };
+		175FCB692B5FB8C600C33BE6 /* SVGKit in Frameworks */ = {isa = PBXBuildFile; productRef = 175FCB682B5FB8C600C33BE6 /* SVGKit */; };
+		175FCB6B2B5FB8C600C33BE6 /* SVGKitSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 175FCB6A2B5FB8C600C33BE6 /* SVGKitSwift */; };
+		175FCB6E2B60E60000C33BE6 /* InteractiveMap in Frameworks */ = {isa = PBXBuildFile; productRef = 175FCB6D2B60E60000C33BE6 /* InteractiveMap */; };
+		175FCB732B61146D00C33BE6 /* ScrollableImage in Frameworks */ = {isa = PBXBuildFile; productRef = 175FCB722B61146D00C33BE6 /* ScrollableImage */; };
+		175FCB752B6237BB00C33BE6 /* ScrollableImage in Frameworks */ = {isa = PBXBuildFile; productRef = 175FCB742B6237BB00C33BE6 /* ScrollableImage */; };
+		17F4E8D62B66D8FF004E3C26 /* world7Final.svg in Resources */ = {isa = PBXBuildFile; fileRef = 17F4E8D52B66D8FF004E3C26 /* world7Final.svg */; };
+		17F4E8DA2B68E8D2004E3C26 /* world5.svg in Resources */ = {isa = PBXBuildFile; fileRef = 17F4E8D92B68E8D2004E3C26 /* world5.svg */; };
+		17F4E8DE2B68F3AF004E3C26 /* UniAppMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F4E8DD2B68F3AF004E3C26 /* UniAppMap.swift */; };
+		17F4E8E22B6B91AC004E3C26 /* AsiaMapFinal.svg in Resources */ = {isa = PBXBuildFile; fileRef = 17F4E8E12B6B91AC004E3C26 /* AsiaMapFinal.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		175FCB4F2B5FAE8400C33BE6 /* TEAM1MC3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEAM1MC3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		175FCB522B5FAE8400C33BE6 /* TEAM1MC3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEAM1MC3App.swift; sourceTree = "<group>"; };
-		175FCB542B5FAE8400C33BE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		175FCB542B5FAE8400C33BE6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		175FCB562B5FAE8400C33BE6 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		175FCB582B5FAE8500C33BE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		175FCB5B2B5FAE8500C33BE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		17F4E8D52B66D8FF004E3C26 /* world7Final.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = world7Final.svg; path = ../../world7Final.svg; sourceTree = "<group>"; };
+		17F4E8D92B68E8D2004E3C26 /* world5.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = world5.svg; path = Assets.xcassets/world5.svg; sourceTree = "<group>"; };
+		17F4E8DD2B68F3AF004E3C26 /* UniAppMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniAppMap.swift; sourceTree = "<group>"; };
+		17F4E8E12B6B91AC004E3C26 /* AsiaMapFinal.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = AsiaMapFinal.svg; path = ../../AsiaMapFinal.svg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +43,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				175FCB6B2B5FB8C600C33BE6 /* SVGKitSwift in Frameworks */,
+				175FCB692B5FB8C600C33BE6 /* SVGKit in Frameworks */,
+				1747CA6D2B6645870089BFE7 /* SwiftUIImageViewer in Frameworks */,
+				175FCB6E2B60E60000C33BE6 /* InteractiveMap in Frameworks */,
+				175FCB752B6237BB00C33BE6 /* ScrollableImage in Frameworks */,
+				175FCB642B5FB14700C33BE6 /* SwiftSVG in Frameworks */,
+				175FCB732B61146D00C33BE6 /* ScrollableImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,7 +76,11 @@
 			isa = PBXGroup;
 			children = (
 				175FCB522B5FAE8400C33BE6 /* TEAM1MC3App.swift */,
-				175FCB542B5FAE8400C33BE6 /* ContentView.swift */,
+				17F4E8D92B68E8D2004E3C26 /* world5.svg */,
+				17F4E8D52B66D8FF004E3C26 /* world7Final.svg */,
+				17F4E8E12B6B91AC004E3C26 /* AsiaMapFinal.svg */,
+				175FCB542B5FAE8400C33BE6 /* MapView.swift */,
+				17F4E8DD2B68F3AF004E3C26 /* UniAppMap.swift */,
 				175FCB562B5FAE8400C33BE6 /* Item.swift */,
 				175FCB582B5FAE8500C33BE6 /* Assets.xcassets */,
 				175FCB5A2B5FAE8500C33BE6 /* Preview Content */,
@@ -86,6 +112,15 @@
 			dependencies = (
 			);
 			name = TEAM1MC3;
+			packageProductDependencies = (
+				175FCB632B5FB14700C33BE6 /* SwiftSVG */,
+				175FCB682B5FB8C600C33BE6 /* SVGKit */,
+				175FCB6A2B5FB8C600C33BE6 /* SVGKitSwift */,
+				175FCB6D2B60E60000C33BE6 /* InteractiveMap */,
+				175FCB722B61146D00C33BE6 /* ScrollableImage */,
+				175FCB742B6237BB00C33BE6 /* ScrollableImage */,
+				1747CA6C2B6645870089BFE7 /* SwiftUIImageViewer */,
+			);
 			productName = TEAM1MC3;
 			productReference = 175FCB4F2B5FAE8400C33BE6 /* TEAM1MC3.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +149,13 @@
 				Base,
 			);
 			mainGroup = 175FCB462B5FAE8400C33BE6;
+			packageReferences = (
+				175FCB622B5FB14700C33BE6 /* XCRemoteSwiftPackageReference "SwiftSVG" */,
+				175FCB672B5FB8C600C33BE6 /* XCRemoteSwiftPackageReference "SVGKit" */,
+				175FCB6C2B60E60000C33BE6 /* XCRemoteSwiftPackageReference "InteractiveMap" */,
+				175FCB712B61146D00C33BE6 /* XCRemoteSwiftPackageReference "ScrollableImage" */,
+				1747CA6B2B6645870089BFE7 /* XCRemoteSwiftPackageReference "swiftui-image-viewer" */,
+			);
 			productRefGroup = 175FCB502B5FAE8400C33BE6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,7 +171,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				175FCB5C2B5FAE8500C33BE6 /* Preview Assets.xcassets in Resources */,
+				17F4E8DA2B68E8D2004E3C26 /* world5.svg in Resources */,
+				17F4E8E22B6B91AC004E3C26 /* AsiaMapFinal.svg in Resources */,
 				175FCB592B5FAE8500C33BE6 /* Assets.xcassets in Resources */,
+				17F4E8D62B66D8FF004E3C26 /* world7Final.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,8 +185,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				175FCB552B5FAE8400C33BE6 /* ContentView.swift in Sources */,
+				175FCB552B5FAE8400C33BE6 /* MapView.swift in Sources */,
 				175FCB572B5FAE8400C33BE6 /* Item.swift in Sources */,
+				17F4E8DE2B68F3AF004E3C26 /* UniAppMap.swift in Sources */,
 				175FCB532B5FAE8400C33BE6 /* TEAM1MC3App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,6 +394,87 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1747CA6B2B6645870089BFE7 /* XCRemoteSwiftPackageReference "swiftui-image-viewer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/fuzzzlove/swiftui-image-viewer.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		175FCB622B5FB14700C33BE6 /* XCRemoteSwiftPackageReference "SwiftSVG" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mchoe/SwiftSVG.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		175FCB672B5FB8C600C33BE6 /* XCRemoteSwiftPackageReference "SVGKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SVGKit/SVGKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		175FCB6C2B60E60000C33BE6 /* XCRemoteSwiftPackageReference "InteractiveMap" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GrandSir/InteractiveMap";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		175FCB712B61146D00C33BE6 /* XCRemoteSwiftPackageReference "ScrollableImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gtokman/ScrollableImage.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1747CA6C2B6645870089BFE7 /* SwiftUIImageViewer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1747CA6B2B6645870089BFE7 /* XCRemoteSwiftPackageReference "swiftui-image-viewer" */;
+			productName = SwiftUIImageViewer;
+		};
+		175FCB632B5FB14700C33BE6 /* SwiftSVG */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 175FCB622B5FB14700C33BE6 /* XCRemoteSwiftPackageReference "SwiftSVG" */;
+			productName = SwiftSVG;
+		};
+		175FCB682B5FB8C600C33BE6 /* SVGKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 175FCB672B5FB8C600C33BE6 /* XCRemoteSwiftPackageReference "SVGKit" */;
+			productName = SVGKit;
+		};
+		175FCB6A2B5FB8C600C33BE6 /* SVGKitSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 175FCB672B5FB8C600C33BE6 /* XCRemoteSwiftPackageReference "SVGKit" */;
+			productName = SVGKitSwift;
+		};
+		175FCB6D2B60E60000C33BE6 /* InteractiveMap */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 175FCB6C2B60E60000C33BE6 /* XCRemoteSwiftPackageReference "InteractiveMap" */;
+			productName = InteractiveMap;
+		};
+		175FCB722B61146D00C33BE6 /* ScrollableImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 175FCB712B61146D00C33BE6 /* XCRemoteSwiftPackageReference "ScrollableImage" */;
+			productName = ScrollableImage;
+		};
+		175FCB742B6237BB00C33BE6 /* ScrollableImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 175FCB712B61146D00C33BE6 /* XCRemoteSwiftPackageReference "ScrollableImage" */;
+			productName = ScrollableImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 175FCB472B5FAE8400C33BE6 /* Project object */;
 }

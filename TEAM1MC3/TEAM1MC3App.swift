@@ -25,7 +25,7 @@ struct TEAM1MC3App: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            UniAppMap()
         }
         .modelContainer(sharedModelContainer)
     }
